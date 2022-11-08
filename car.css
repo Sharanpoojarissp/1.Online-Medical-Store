@@ -1,0 +1,237 @@
+nav {    
+    display: block;
+    text-align: center;
+  }
+  nav ul {
+    margin: 0;
+    padding:0;
+    list-style: none;
+  }
+.a{
+    display: flexbox;
+    overflow: hidden;
+}
+.a a{
+    text-decoration: none;  
+    display: block;
+    width: fit-content;
+}
+.a h1{
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+.a p{
+    padding-left: 30px;
+    margin-top: -20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: black;
+}
+.a-1{
+    position: relative;
+    margin-left: 30%;
+    margin-bottom: 80px;
+    margin-top: -70px;
+}
+.a-1 input{
+    width: 60%;
+    height: 25px;
+    border-radius: 0.5px;
+}
+.a-1 button{
+    font-size: 16px;
+    border-width: 3px solid black;
+    border-radius: 3px;
+    height: 32px;
+    color: black;
+    
+}
+.a-1 button:hover{
+    background-color: rgb(157, 231, 87);
+}
+.a-1 button{
+    animation:forwards;
+    transform-origin: 2px;
+    transition-duration: 0.5s;
+}
+.a-1 input:focus{
+    background-color: rgba(128, 245, 206, 0.267);
+}
+.a-2{
+    margin-left: 80%;
+    margin-top: -95px;
+}
+.a-2 ul{
+    margin: 0;
+    padding: 0;
+}
+.a-2 li{
+    float: left;
+    list-style: none;
+}
+.a-2 a:link,
+a:visited{
+    display: block;
+    width: 75px;
+    background: transparent;
+    text-align: center;
+    overflow: hidden;
+}
+.a-2 button{
+    display: inline-block; 
+    width: 75px; 
+    height: 30px; 
+    font-size: 16px; 
+    background-color: aqua;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.a-2 button:hover{
+    background-color: rgb(167, 162, 162);
+}
+.b ul {
+    position: absolute;
+    white-space: nowrap;
+    z-index: 1;
+    left: -99999em;
+}
+.b > li:hover > ul {
+    left: auto;
+    margin-top: 2px;
+    min-width: 100%;
+}
+.b > li li:hover > ul { 
+    left: 100%;
+    margin-left: 1px;
+    top: -1px;
+}
+.b a {
+    display:block; 
+    background: rgba(0, 0, 128, 0.842); 
+    color: #fff; 
+    text-decoration: none;
+    padding: 0.8em 1.8em;
+    text-transform: uppercase;
+    font-size: 80%;
+    letter-spacing: 2px;
+    position: relative;
+}
+.b a:hover{
+    background-color: steelblue;
+}
+.b{  
+    vertical-align: top; 
+    display: inline-block;
+    margin-top: 18px;
+    margin-left: 50px;
+    width: 95%;  
+}
+.b li {
+    position: relative;
+    display: block;
+}
+.b > li { 
+    float: left; 
+    border-bottom: 2px; 
+    margin-right: 2px; 
+} 
+.b > li > a { 
+    margin: 1px;
+}
+.b li li a { 
+    margin-top: 1px;
+}
+/* .b > li:hover, 
+.b > li:hover > a { 
+    border-bottom-color: orange;
+}
+.b li:hover > a { 
+    color:orange; 
+} */
+  
+
+/* cart */
+
+.c{
+    display: inline-block;
+    margin: auto;
+    padding: auto;
+    
+}
+
+.my {
+    margin-top: 3%;
+    margin-left: 5%;
+    font-size: 24px;
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.c-1{
+    display: inline-block;
+    margin-left: -30%;
+    margin-top: 2%;
+    width: 95%;
+    font-size: 22px;
+    text-align: center;
+    column-gap: 32px;
+    position: absolute;
+    
+}
+.c-1 button{
+    display: inline-flexbox;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    background-color: cadetblue;
+}
+.c-1 button:hover{
+    background-color: rgba(226, 5, 5, 0.719);
+}
+.c-1 img{
+    display: inline-flexbox;
+    width: 20%;
+}
+.c-3{
+    display: inline;
+    margin-left: 75%;
+    position: relative;
+    margin-top: -8%;
+    box-sizing: content-box;
+    width: fit-content;
+}
+.c-3 h6{
+    display: inline;
+    margin-left: 30px;
+    font-size: 16px;
+    tab-size: 5px;
+    word-spacing: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: static;
+}
+.c-3 hr{
+    color: black;
+    align-self: flex-start;
+    margin-left: 30px;
+    width: 280px;
+}
+.free{
+    color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.c hr{
+    margin-top: 35px;
+    width: 100%;
+}
+
+
+
+
+
